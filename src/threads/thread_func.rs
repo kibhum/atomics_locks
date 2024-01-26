@@ -1,6 +1,6 @@
 use std::thread;
 
-pub fn threads() {
+pub fn thread_func() {
     let t1: thread::JoinHandle<()> = thread::spawn(f);
     let t2: thread::JoinHandle<()> = thread::spawn(f);
     println!("Hello from the main thread.");
