@@ -8,5 +8,6 @@ fn main() {
     // sharing_ownership::static_sharing::static_sharing();
     // sharing_ownership::box_leak::box_leak();
     // sharing_ownership::rc::shared_rc();
-    sharing_ownership::mutex::mutex();
+    // sharing_ownership::mutex::mutex();
+    sharing_ownership::parking::parking();
 }
