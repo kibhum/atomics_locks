@@ -1,2 +1,2 @@
-Page - 39
-Example: Statistics
+Page - 57
+Release and Acquire Ordering
